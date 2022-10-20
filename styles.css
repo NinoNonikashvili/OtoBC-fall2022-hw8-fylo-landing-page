@@ -1,0 +1,195 @@
+@font-face {
+  font-family: 'barlow_bold';
+  src: url(fonts/Barlow_Bold.ttf);
+}
+@font-face {
+  font-family: 'barlow_light';
+  src: url(fonts/barlow_Light.ttf);
+}
+@font-face {
+  font-family: 'barlow_reg';
+  src: url(fonts/Barlow_Regular.ttf);
+}
+
+*{
+  text-decoration: none;
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  font-family: 'barlow_reg';
+}
+
+@media screen and (min-width:320px){
+  .t, .d{
+    display: none;
+  }
+  body{
+    padding:29px 0 50px;
+    font-style: normal;
+    background-color: #F2F2F2;
+  }
+  h1{
+    font-family: 'barlow_bold';
+  }
+  header{
+    padding: 0 6%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo{
+    width:40px;
+    height: 40px;
+  }
+  .header-btn, .bp-btn{
+    width:150px;
+    height:50px;
+    background-color: #E8EFF2;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #162542;
+  }
+  main{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .buy-prod-div{
+    padding: 0 6%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 75px;
+  }
+  .bp-h1{
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #162542;
+    margin:65px 0 32px;
+  }
+  .bp-par, .pd-par, .features-section > div > p, .footer-span{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B8BAD;
+  }
+  .btns-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+  }
+  .bp-btn{
+    background-color: #F16718;
+    color: #ffffff;
+  }
+  .bp-release-date{
+    width:128px;
+    height:27px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #7B8BAD;
+  }
+
+  .img-keyboard{
+    max-width: 94%;
+    border-radius: 80px 0 0 80px;
+    margin: 0 0 50px 6% ;
+  }
+  .img-phone-and-keyboard{
+    max-width: 100%;
+    border-radius: 0 40px 40px 0;
+    mix-blend-mode:multiply;
+    object-fit: none;
+    object-position: 69%;
+  }
+  .img-phone-wrapper{
+    max-width: 40%;
+    height: 214px;
+    background-color: #F16718;
+    margin-right: 14px;
+    border-radius: 0 40px 41px 0;
+  }
+  .img-glass-and-keyboard{
+    max-width: 48%;
+    border-radius: 40px;
+    margin-right: 0 6% 75px 0;
+  }
+  .product-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px 33px 135px;
+  }
+  .pd-h1, .features-section > div >h1{
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #162542;
+  }
+  .pd-h1{
+    margin-bottom: 24px;
+  }
+  .pd-par, .features-section > div > p{
+    text-align: center;
+  }
+  .features-section, .features-section > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .features-section{
+    margin: 0 33px 95px;
+  }
+  .features-section > div{
+    margin-bottom: 65px;
+  }
+  .features-section > div >h1 {
+    font-size: 24px;
+    line-height: 28px;
+    margin:48px 0 24px;
+  }
+
+  .icon-wrapper{
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:65px;
+    height:65px;
+    background-color: #F16718;
+  }
+  footer{
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .footer-par{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B8BAD;
+  }
+  .footer-span{
+    margin-left: 6px;
+  }
+
+
+}
+
+
+@media screen and (min-width:768px){
+
+}
+
+
+@media screen and (min-width:1440px){
+
+}
